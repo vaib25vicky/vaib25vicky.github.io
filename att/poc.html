@@ -6,11 +6,11 @@
 </head>
 <body>
 <script > 
-var destinationPage = 'https://bcontent.att.com/dynamic/iamLRR/LrrController?IAM_OP=login&appName=m31872&refIDFromLogin=1575189246426_1444754476_P&targetURL=https%3A%2F%2Foidc.idp.blogin.att.com%2Fmga%2Fsps%2Foauth%2Foauth20%2Fauthorize%3Fnonce%3DPRYRlh0rhE%26redirect_uri%3Dhttps%253A%252F%252Fwww.wireless.att.com%252Fisam%252Fsps%252Foidc%252Frp%252FPremierRP%252Fredirect%252Fpremierop%26response_mode%3Dform_post%26alt_dest%3Dhttps%25253A%25252F%25252Fwww.wireless.att.com%25252Fb2bservlets%25252FHaloBPremierSSOLoginServlet.dyn%25253FREFERRER%25253D%26scope%3Dopenid%26response_type%3Did_token%26state%3DA6BxJtvsYM%26client_id%3Dm31872'; 
+var destinationPage = 'https://www.wireless.att.com/b2bservlets/HaloBPremierSSOLoginServlet.dyn?REFERRER='; 
 
  window.onerror=fnErrorTrap; 
  function fnErrorTrap(sMsg,sUrl,sLine){
-     alert('Source address was: ' + destinationPage +            '\n\nDestination URL is: ' + sUrl +           '\n\nBy vaib25vicky hackerone');
+     alert('Source address was: ' + destinationPage + '\n\nDestination URL is: ' + sUrl + '\n\nBy vaib25vicky hackerone');
      return false; 
    } 
 
